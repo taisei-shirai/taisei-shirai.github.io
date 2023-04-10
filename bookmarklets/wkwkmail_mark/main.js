@@ -1,3 +1,5 @@
+alert('hello');
+
 if (window.location.hostname == 'wk.550909.com') {
 	if (document.querySelector('.afterPartner') != null) {
 		let n = Number(window.prompt("ループ回数を入力してください", ""));
