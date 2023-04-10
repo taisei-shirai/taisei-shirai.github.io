@@ -3,7 +3,7 @@ function main() {
 		if (document.querySelector('.afterPartner') != null) {
 			let n = Number(window.prompt("ループ回数を入力してください", ""));
 			console.log(`input: ${n}`);
-			if (n === NaN) {
+			if (isNaN(n)) {
 				alert('数値として認識されませんでした。終了します。');
 				return;
 			}
