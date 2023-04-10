@@ -13,7 +13,7 @@ function main() {
 				s += rS;
 				timer_id = setTimeout((rS) => {
 					let aP = document.querySelector('.afterPartner');
-					if (aP != null) {
+					if (aP != null || aP.href === undefined) {
 						c++;
 						console.log(`${c}回目：${rS}秒`);
 						aP.click();
