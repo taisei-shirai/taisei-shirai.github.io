@@ -9,7 +9,7 @@ function main() {
 			}
 			let c = 0;
 			for (let i = 0, s = 0; i < n; i++) {
-				rS = Math.ceil(Math.random() * 10);
+				rS = Math.ceil(Math.random() * 30);
 				s += rS;
 				timer_id = setTimeout((rS) => {
 					let aP = document.querySelector('.afterPartner');
